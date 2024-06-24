@@ -6,7 +6,7 @@
 - B.Sc. in Economics | Pontificia Universidad Javeriana | Apr 2022
 - B.Sc. in Economics | London School of Economics | Aug 2018
 
-#### Technical: Python, SQL, AWS, R, Stata, Tableau, MS Office, Git, HTML, MATLAB
+#### Technical: Python, SQL, AWS, R, Stata, Tableau, MS Office, Git, HTML, MATLAB, Refinitiv
 
 #### Skills: Data Visualization & Analysis, Statistical Modeling, Financial Valuation, Machine & Deep Learning, Natural Language Processing, Text Mining
 
@@ -41,3 +41,6 @@ _Languages used: R_
 Building on classic valuation models such as Black-Scholes-Merton, we utilize the predictive capabilities of RNNs to enhance year-over-year predicitions over financial statements (current).
 
 _Languages used: Python_
+
+## Download My CV
+[![Download CV](https://img.shields.io/badge/Download%20CV-Click%20Here-blue)](assets/files/RESUME_MANOTASARROYAVE.pdf)
