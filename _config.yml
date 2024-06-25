@@ -3,3 +3,7 @@ description: My Portfolio and Personal Projects
 theme: jekyll-theme-minimal
 show_downloads: true
 logo: /assets/img/logo.png
+
+# Custom includes
+include:
+  - _includes/custom-head.html
