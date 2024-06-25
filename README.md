@@ -10,7 +10,7 @@
 
 #### Skills: Data Visualization & Analysis, Statistical Modeling, Financial Valuation, Machine & Deep Learning, Natural Language Processing, Text Mining
 
-#### Languages: English (C1 - Cambridge), Spanish (Native), Portuguese
+_Languages: English (C1 - Cambridge), Spanish (Native), Portuguese_
 
 ## Professional Experience:
 
