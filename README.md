@@ -43,4 +43,4 @@ Building on classic valuation models such as Black-Scholes-Merton, we utilize th
 _Languages used: Python_
 
 ## Download My CV
-[![Download CV](https://img.shields.io/badge/Download%20CV-Click%20Here-blue)](assets/files/RESUME_MANOTASARROYAVE.pdf)
+[![Download CV](https://img.shields.io/badge/Download%20CV-Click%20Here-blue)](assets/files/CV_ManotasArroyave.pdf)
