@@ -38,7 +38,7 @@ _Languages used: R_
 
 ### Enhanced Option Valuation Using Deep Learning - 2024
 
-Building on classic valuation models such as Black-Scholes-Merton, we utilize the predictive capabilities of RNNs to enhance year-over-year predicitions over financial statements (current).
+We explored the frontier of real options valuation in the energy industry by integrating deep learning techniques with traditional financial models. This research aimed to enhance the accuracy and applicability of real option valuation, focusing on the dynamic uncertainties of the energy sector. We developed advanced machine learning architectures, including Recurrent Neural Networks (RNNs) with Time2Vec and attention mechanisms, to capture complex temporal dependencies in financial data. These models were compared against traditional methods like ARIMA, demonstrating significant improvements in predictive accuracy across metrics such as RMSE and R-squared. The application of these predictions in real options valuation scenarios using the Black-Scholes-Merton model highlighted the practical benefits of our approach. This work highlights the potential of combining deep learning with financial models to optimize investment decisions in volatile markets​.
 
 _Languages used: Python_
 
