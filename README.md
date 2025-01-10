@@ -1,7 +1,7 @@
 # About Me
 
 ## Education
-- M.Sc. in International Business | Universitat de Barcelona | July 2024
+- M.Sc. in Int. Business | Universitat de Barcelona | July 2024
 - M.Sc. in Data Science | Barcelona School of Economics | July 2023
 - B.Sc. in Economics | Pontificia Universidad Javeriana | Apr 2022
 - B.Sc. in Economics | London School of Economics | Aug 2018
@@ -10,7 +10,7 @@
 
 #### Skills: Data Visualization & Analysis, Statistical Modeling, Financial Valuation, Machine & Deep Learning, Natural Language Processing, Text Mining
 
-_Languages: English (C1 - Cambridge), Spanish (Native), Portuguese_
+_Languages: English (C1 - IELTS), Spanish (Native), Portuguese_
 
 ## Professional Experience:
 
