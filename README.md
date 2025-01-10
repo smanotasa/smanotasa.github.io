@@ -14,6 +14,12 @@ _Languages: English (C1 - Cambridge), Spanish (Native), Portuguese_
 
 ## Professional Experience:
 
+**Data Scientist @ Horizon Group (_Aug 2024 -_)**
+- Managed and optimized complex databases to ensure seamless data storage, retrieval, and analysis for cutting-edge research and strategic insights.
+- Designed and implemented advanced data visualizations and graphing solutions to translate analytical findings into clear, actionable insights for specialized reports to clients.
+- Contributed to comprehensive research write-ups and reports, integrating rigorous data analysis with  storytelling to support strategic decision-making.
+- Collaborated in projects of index development, foresight, bespoke research and analysis, visualizations, impact evaluation, and real-time data indcators.
+
 **ICG-OPS - Relation Support Unit Analyst @ Citibank (_Jun 2021 - Dec 2021_)**
 - Managed 10 real time database reports for clients’ overdrafts, unresolved fees, and payables.
 - Led implementation of analytical model for +400 corporate clients engagement metrics.
