@@ -14,6 +14,16 @@
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   }
 
+  function isDarkActive() {
+    const stored = root.getAttribute("data-theme");
+    return stored ? stored === "dark" : systemPrefersDark();
+  }
+
+  function syncToggleState() {
+    const toggle = document.getElementById("theme-toggle");
+    if (toggle) toggle.setAttribute("aria-pressed", String(isDarkActive()));
+  }
+
   const stored = localStorage.getItem(STORAGE_KEY);
   applyTheme(stored);
 
@@ -22,19 +32,20 @@
     if (!localStorage.getItem(STORAGE_KEY)) {
       root.removeAttribute("data-theme");
     }
+    syncToggleState();
   });
 
   document.addEventListener("DOMContentLoaded", () => {
     const toggle = document.getElementById("theme-toggle");
     if (!toggle) return;
 
+    syncToggleState();
+
     toggle.addEventListener("click", () => {
-      const currentlyDark = root.getAttribute("data-theme")
-        ? root.getAttribute("data-theme") === "dark"
-        : systemPrefersDark();
-      const next = currentlyDark ? "light" : "dark";
+      const next = isDarkActive() ? "light" : "dark";
       localStorage.setItem(STORAGE_KEY, next);
       applyTheme(next);
+      syncToggleState();
     });
   });
 })();
