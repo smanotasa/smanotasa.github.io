@@ -673,7 +673,7 @@ nav.primary-nav {
 
 .featured-project h3 { font-size: var(--text-h3); }
 
-.project-desc { color: var(--text-secondary); max-width: 72ch; }
+.project-desc { color: var(--text-secondary); }
 
 .project-links { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-2); }
 
