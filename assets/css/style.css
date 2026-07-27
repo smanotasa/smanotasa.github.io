@@ -3,7 +3,8 @@
   craft — conventional structure, refused only where it was actually broken.
   OWN-WORLD: neutral near-white/near-black surfaces, one confident accent per theme
   (deep olive green in light, bright pink in dark — user-specified, not matched pairs
-  by design), Inter for text, JetBrains Mono for data/labels, 8px spacing scale, 1px
+  by design), Newsreader for display headings (a report byline, not a SaaS headline),
+  Instrument Sans for body/UI, JetBrains Mono for data/labels, 8px spacing scale, 1px
   hairline borders, ruled document register (numbered sections, spine timeline, ledger
   rows) instead of a generic dashboard card-grid. Signature touch: a cursor-reactive
   ledger-row canvas in the hero — ruled rows with line numbers, active "cell" tracks
@@ -54,7 +55,8 @@
   --space-9: 96px;
   --space-10: 128px;
 
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   /* Named type scale — roles, not values. Every font-size in this file
@@ -228,15 +230,15 @@ section { padding-block: var(--space-9); }
 }
 
 .eyebrow {
-  font-family: var(--font-mono);
-  font-size: var(--text-meta);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-family: var(--font-serif);
+  font-size: var(--text-body);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.01em;
   color: var(--accent);
-  font-weight: 600;
 }
 
-h1, h2, h3 { font-weight: 700; letter-spacing: -0.02em; margin: 0; }
+h1, h2, h3 { font-family: var(--font-serif); font-weight: 600; letter-spacing: -0.01em; margin: 0; }
 
 h2.section-title {
   display: flex;
